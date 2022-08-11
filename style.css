@@ -48,7 +48,7 @@ background-color: rgb(230, 192, 255);
 }
 
 
-#trending_rooms
+#trending_rooms, #output
 {
 	padding: 10px; width:80%;background: rgb(207, 142, 250);border-radius: 15px;
 }
@@ -70,7 +70,9 @@ background-color: rgb(230, 192, 255);
 }
 .input_div_message_page label
 {
-	color: blue;
+	color: rgb(51, 22, 83);
+	font-family: 'Lora';
+	font-size: 17px;
 }
 .input_div_message_page #msg
 {
@@ -80,6 +82,7 @@ background-color: rgb(230, 192, 255);
 {
 	margin-top: 15px;
 	width: 50%; 
+	font-family: 'DM Sans';
 }
 .color_white
 {
