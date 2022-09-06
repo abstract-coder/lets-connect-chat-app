@@ -22,6 +22,11 @@ function getData() {
 }
 getData();
 
+function redirect_room(rname){
+    localStorage.setItem("new_room", rname);
+    window.location= "chat_page.html";
+}
+
 function add_room() {
     new_room_name = document.getElementById("new_room").value;
     localStorage.setItem("new_room", new_room_name);
